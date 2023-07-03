@@ -10,7 +10,7 @@ a {
 }
 
 img {
-    border-radius: 400px;
+    border-radius: 300px;
 }
 
 button {
@@ -53,3 +53,14 @@ button {
     font-size: 18px;
     color:#E5E7EB;   
 }
+
+.info-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-images {
+    display: flex; 
+}
+
