@@ -4,8 +4,21 @@ body {
 
 a {
     text-decoration: none;
-    color: aliceblue;
     padding: 0 8px;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+img {
+    border-radius: 400px;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 5px 16px;
+    border-radius: 10px;
+    border: 0;
 }
 
 .header {
@@ -24,4 +37,19 @@ a {
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 16px;
+}
+
+.header-text {
+    max-width: 500px;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extrabold;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color:#E5E7EB;   
 }
